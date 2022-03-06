@@ -1,14 +1,28 @@
 {
   "name": "filetree",
 	"displayName": "FileTree",
-	"description": "",
+	"description": "A simple plugin to generate the simple detailed file structure from the command palettet.",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.64.0"
 	},
-	"categories": [
-		"Other"
+	"publisher": "deepakm0113",
+	"author": {
+		"name": "Deepak"
+	},
+	"homepage": "https://github.com/Deepak0113/filetree",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Deepak0113/filetree"
+	},
+	"keywords": [
+		"File", "FileTree", "FileStructure", "Tree", "Structure", "FileHierarchy", "Hierarchy"
 	],
+	"categories": [
+		"Other","Visualization","Formatters"
+	],
+	"icon": "images/filetree-icon.webp",
+	"license": "LICENSE",
 	"activationEvents": [
 		"onCommand:filetree.generateFileTree"
 	],
